@@ -1,0 +1,84 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/templates/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .desktopnav{
+    display: none;
+  }
+  .mobilenav{
+    display: flex;
+  }
+  body {
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .desktopnav{
+    display: none;
+  }
+  .mobilenav{
+    display: flex;
+  }
+  body {
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .desktopnav{
+    display: block;
+  }
+  .mobilenav{
+    display: none;
+  }
+  body {
+    margin-top: 58px;
+    padding-top: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .desktopnav{
+    display: block;
+  }
+  .mobilenav{
+    display: none;
+  }
+  body {
+    margin-top: 58px;
+    padding-top: 40px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .desktopnav{
+    display: block;
+  }
+  .mobilenav{
+    display: none;
+  }
+  body {
+    margin-top: 58px;
+    padding-top: 40px;
+  }
+}
+
+
+
+.myflat{
+  display:none;
+
+}
